@@ -1,6 +1,6 @@
 ---
 - name: Check processes using Ansible
-  hosts: ansible_client
+  hosts: all
   tasks:
     - name: Get list of running processes
       shell: ps aux
